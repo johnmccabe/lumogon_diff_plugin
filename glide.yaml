@@ -1,0 +1,13 @@
+package: github.com/johnmccabe/lumogon_diff_plugin
+import:
+- package: github.com/docker/docker
+  subpackages:
+  - pkg/archive
+- package: github.com/puppetlabs/lumogon
+  version: FEAT/master/plugin_experiment
+  subpackages:
+  - capabilities/payloadfilter
+  - dockeradapter
+  - logging
+  - plugin
+  - types
